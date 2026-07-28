@@ -1,24 +1,43 @@
 # Frontend Standards
 
-- **Framework**: React + Vite
-- **UI/UX Framework:** Shadcn
+- **Framework**: React (PWA/TS) + Vite
+- **UI/UX Framework:** shadcn
 - **Template**: [natiq-frontend](https://github.com/natiq-foundation/natiq-frontend)
 
 ## Naming
 
 - Use restProps, not props
+- Separate JSON files for every lang in app translations (i18n)
 
-## imports periority
+## Imports Priority
 
 1. React, Next
-2. other Deps
+2. Other dependencies
 3. Yakad(lib, ui, x, symbol)
 4. @/localfolders
 5. ./localfiles
 6. styles
 
+## URL
+
+- **Root path**: Omit the language code (`/`).
+- **Content paths**: Include the language code (e.g., `/en/...`, `/fa/...`) as they require multilingual SEO.
+- **Technical paths**: Language code is optional; the priority is to omit it.
+- **Note**: The user's selected language is stored in cross-domain cookies, not in the URL.
+
+### URL Strategy
+
+| Scenario                                                        | Action                                                                                                             |
+| :-------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- |
+| **Cookie exists**                                               | Use the cookie language.                                                                                           |
+| **No cookie, but URL has langCode**                             | Use the URL language (for SEO and initial context). Save this to the cookie.                                       |
+| **No cookie, no URL langCode**                                  | Fall back to browser language (`Accept-Language`). **Do not** save this to the cookie.                             |
+| **Cookie conflicts with URL langCode**                          | Cookie wins (render in cookie language). Show a prompt offering the user the option to switch to the URL language. |
+| **User explicitly selects a language** (via switcher or prompt) | Save the selected language to the cookie.                                                                          |
+
 ## Structure
 
+```
 src
 │
 ├─ assets
@@ -27,7 +46,7 @@ src
 │ - default export
 │ - simple arrow function
 │
-├─ components (NO Default Export / ForwardRef / don't design pages here)
+├─ components (NO default export / don't design pages here)
 │
 │ ├─ ui (Original shadcn components)
 │ │ ├─ button.tsx
@@ -119,3 +138,4 @@ src
 ├─ router.tsx
 ├─ app.tsx
 └─ main.tsx
+```

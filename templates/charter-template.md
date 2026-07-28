@@ -55,6 +55,10 @@
 - **Framework**: [e.g., React, Vue, Angular]
 - **Template**: [natiq-frontend](https://github.com/natiq-foundation/natiq-frontend)
 
+#### URLs
+
+- URL Address (Use case)
+
 ### Backend
 
 - **Language**: Python
@@ -62,6 +66,17 @@
 - **Coding Standards**: backend-standards
 - **Database**: PostgreSQL
 - **Broker**: Redis (Celery)
+
+#### API Routers
+
+- API Controller/Action name
+- API Controller/Action name
+- API Controller/Action name
+
+#### DB Tables
+
+- Table name (Use case / related to...)
+- Table name (Use case / related to...)
 
 ### Infrastructure
 

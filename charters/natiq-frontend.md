@@ -23,13 +23,12 @@
 
 ### Vision
 
-[Write the project vision in 1-2 sentences]
+The primary point of contact for users with Natiq—a modern gateway that builds trust through exceptional design and seamless UX, paving the way to our services.
 
 ### High-Level Goals
 
-- Frontend coding template for other frontend projects
-- [Goal 2]
-- [Goal 3]
+- Develop and maintain a high-performance, responsive, and SEO-friendly landing page (homepage) for the Natiq website.
+- Provide a reusable UI component library and design system (tokens, typography, layout) to be consumed by other Natiq frontend projects.
 
 ---
 
@@ -37,14 +36,12 @@
 
 ### In-Scope
 
-- [Item 1]
-- [Item 2]
-- [Item 3]
+- Developing the main landing page layout, hero sections, and public sub-pages (e.g., About, Contact, Blog index).
+- Establishing global design tokens (colors, typography, spacing, breakpoints) and a cohesive design system.
 
 ### Out-of-Scope
 
-- [Item 1]
-- [Item 2]
+- Core business logic and feature development for downstream applications (e.g., user dashboard, admin panel, payment gateways, or analytics modules).
 
 ---
 
@@ -54,9 +51,8 @@
 
 - **Framework**: React(PWA)
 
-## Features as Template
+**Features as Template**:
 
-- Name, Logo, URL
 - Installable PWA
 - Handle Online, Connecting... & Offline Bar
 - Check Ping and Status of Multi Servers
@@ -68,10 +64,18 @@
 - Default 5 Tab pages with header, Desktop & Mobile
 - Connected to Natiq API
 - Get data from API and cathe
-  **Settings Tab:**
-- Theme Handling
-- Language selection
-- Update/Reset Button
+- Routing System
+- Settings Tab:
+  - Theme Handling
+  - Language selection
+  - Update/Reset Button
+
+#### URLs
+
+- /
+- /launcher
+- /launcher/settings
+- /iframe
 
 ### Infrastructure
 
@@ -86,9 +90,7 @@
 
 ## 5. Pending Decisions
 
-- [Subject 1]
-- [Subject 2]
-- [Subject 3]
+TBD
 
 ---
 
