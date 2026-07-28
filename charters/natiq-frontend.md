@@ -51,9 +51,8 @@ The primary point of contact for users with Natiq—a modern gateway that builds
 
 - **Framework**: React(PWA)
 
-## Features as Template
+**Features as Template**:
 
-- Name, Logo, URL
 - Installable PWA
 - Handle Online, Connecting... & Offline Bar
 - Check Ping and Status of Multi Servers
@@ -66,10 +65,17 @@ The primary point of contact for users with Natiq—a modern gateway that builds
 - Connected to Natiq API
 - Get data from API and cathe
 - Routing System
-  **Settings Tab:**
-- Theme Handling
-- Language selection
-- Update/Reset Button
+- Settings Tab:
+  - Theme Handling
+  - Language selection
+  - Update/Reset Button
+
+#### URLs
+
+- /
+- /launcher
+- /launcher/settings
+- /iframe
 
 ### Infrastructure
 
