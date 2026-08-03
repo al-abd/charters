@@ -62,13 +62,22 @@ A Telegram bot that engages users with daily Quranic content and other Islamic t
 
 ## 4. Architecture & Technologies
 
-## Bot
+### Bot
 
 - **Language**: Python
 - **SDK**: python-telegram-bot
 - **Quran Data Source**: Natiq API
 - **Database**: PostgreSQL (shared across all platform instances)
 - **Broker**: Redis
+
+#### DB Tables
+
+- Table name (Use case)
+  - related to...
+  - related to...
+- Table name (Use case)
+  - related to...
+  - related to...
 
 ### Infrastructure
 

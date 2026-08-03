@@ -14,7 +14,7 @@
 | **Project Repo**       | quran-frontend                      |
 | **Project Manager**    | [ekiuse](https://github.com/ekiuse) |
 | **Development Team**   | Frontend                            |
-| **Start Date**         |                                     |
+| **Start Date**         | 2023-10-03                          |
 | **Estimated End Date** |                                     |
 
 ---

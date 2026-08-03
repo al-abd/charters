@@ -1,6 +1,6 @@
 # Project Charter - Forced Alignment
 
-**Last Updated**:
+**Last Updated**: [Date]
 **Version**: 1.0.0
 **Status**: In Progress
 
