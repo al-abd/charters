@@ -75,8 +75,12 @@
 
 #### DB Tables
 
-- Table name (Use case / related to...)
-- Table name (Use case / related to...)
+- Table name (Use case)
+  - related to...
+  - related to...
+- Table name (Use case)
+  - related to...
+  - related to...
 
 ### Infrastructure
 
