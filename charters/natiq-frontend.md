@@ -54,6 +54,7 @@ The primary point of contact for users with Natiq—a modern gateway that builds
 **Features as Template**:
 
 - Installable PWA
+- Cross domain Cookie based Token saving
 - Handle Online, Connecting... & Offline Bar
 - Check Ping and Status of Multi Servers
 - Get Domain from ENV
@@ -69,6 +70,10 @@ The primary point of contact for users with Natiq—a modern gateway that builds
   - Theme Handling
   - Language selection
   - Update/Reset Button
+
+#### Permissions
+
+- Notifictions
 
 #### URLs
 

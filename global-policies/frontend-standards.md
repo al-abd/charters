@@ -2,6 +2,7 @@
 
 - **Framework**: React (PWA/TS) + Vite
 - **UI/UX Framework:** shadcn
+- **API SDK:** nq-sdk
 - **Template**: [natiq-frontend](https://github.com/natiq-foundation/natiq-frontend)
 
 ## Naming

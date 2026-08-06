@@ -55,6 +55,11 @@
 - **Framework**: [e.g., React, Vue, Angular]
 - **Template**: [natiq-frontend](https://github.com/natiq-foundation/natiq-frontend)
 
+#### Permissions
+
+- Notifictions
+- Location
+
 #### URLs
 
 - URL Address (Use case)
