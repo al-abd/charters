@@ -23,7 +23,7 @@
 
 ### Vision
 
-[Write the project vision in 1-2 sentences]
+Islamic Nujum
 
 ### High-Level Goals
 

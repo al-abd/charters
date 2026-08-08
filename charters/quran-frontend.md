@@ -52,11 +52,10 @@ TBD
 - /
 - /search
 - /settings
-- /en/mushaf/[rom_slug][surah_number]:[ayah_number]
-- /en/mushaf/u5:24
-- /en/surah/u5:24
-- /en/ayah/u5:24
-- /en/page/60
+- /en/[view_mode]/[rom_slug][surah_number]:[ayah_number]
+- /en/page/[number]
+
+view_mode: [mushaf, surah, ayah]
 
 ### Infrastructure
 
