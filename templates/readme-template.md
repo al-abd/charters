@@ -6,7 +6,7 @@
 
 ## Project Charter
 
-Project Charter is available on [charters](charters).
+Project Charter is available on [charters/REPOSITORY_NAME.md](https://github.com/natiq-foundation/charters/blob/main/charters/REPOSITORY_NAME.md).
 
 ---
 

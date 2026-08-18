@@ -50,14 +50,14 @@ src
 ├─ components (NO default export / don't design pages here)
 │
 │ ├─ ui (Original shadcn components)
-│ │ ├─ button.tsx
-│ │ ├─ input.tsx
-│ │ ├─ dialog.tsx
+│ │ ├─ button
+│ │ ├─ input
+│ │ ├─ dialog
 │ │ └─ ...
 │ │
 │ ├─ specified (Project‑specific components)
-│ │ ├─ HeroBanner.tsx
-│ │ ├─ LandingCard.tsx
+│ │ ├─ HeroBanner
+│ │ ├─ LandingCard
 │ │ └─ ...
 │ │
 │ ├─ features (Active components with logic)
